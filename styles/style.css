@@ -41,8 +41,8 @@
 }
 
 .header__address {
-    max-width: 240px;
-    justify-self: flex-end;
+  justify-self: flex-end;
+  max-width: 240px;
 }
 
 .cover {
@@ -74,8 +74,8 @@
 }
 
 .aligned-text_center {
-    margin-left: 32px;
   margin-top: 14px;
+  margin-left: 32px;
   text-align: center;
 }
 
@@ -155,8 +155,6 @@
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  /* background-position: 50% 50%;
-  background-size: cover; */
 }
 
 .card_type_book {
@@ -184,4 +182,73 @@
   padding-top: 30px;
   padding-left: 40px;
   font-size: 20px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 25px;
+  margin-top: 153px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.about__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 334px;
+  height: 596px;
+}
+
+.about__logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 60%;
+  height: auto;
+}
+
+.about__auction {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about__title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 40%;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about__article {
+  margin-top: 10px;
+  height: 50%;
+  width: 99%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.about_text_second {
+    margin-top: 23px;
 }
