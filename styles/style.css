@@ -44,6 +44,7 @@
 .header__address {
   justify-self: flex-end;
   max-width: 240px;
+  margin-right: 37px;
 }
 
 .cover {
