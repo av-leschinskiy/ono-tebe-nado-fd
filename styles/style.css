@@ -237,11 +237,12 @@
 }
 
 .about__article {
-  display: flex;
-  flex-direction: column;
-  width: 99%;
-  height: 50%;
-  margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    height: 50%;
+    margin-top: 10px;
+    gap: 24px;
 }
 
 .about__text {
@@ -250,9 +251,9 @@
   line-height: 24px;
 }
 
-.about_text_second {
+/* .about_text_second {
   margin-top: 23px;
-}
+} */
 
 .footer {
   display: grid;
